@@ -1,1 +1,38 @@
 
+{
+	"storeInfo": {
+		"url": "https://github.com/NPI-D7/D7-Store/raw/master/unistore/D7.unistore",
+		"file": "sdmc:/3ds/Universal-Updater/stores/D7.unistore",
+		"title": "D7-Store",
+		"author": "Tobi-D7",
+		"description": "D7-Store",
+		"barColor": "#395472",
+		"bgBottomColor": "#262C4D",
+		"bgTopColor": "#60A8C0",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#78C0D8",
+		"unselectedColor": "#4D7684",
+		"version": 0
+	},
+	"storeContent": [
+		{
+		"info": {
+			"title": "D7-Menu-Nightly",
+			"version": "0.0.0",
+			"author": "Tobi-D7",
+			"description": "A 3ds apploader",
+			"fileSize": 638720
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "NPI-D7/nightlys",
+			"file": "D7-Menu.cia",
+			"output": "sdmc:/D7-Menu.cia",
+			"message": "Downloading D7-Menu..."
+		}, {
+			"type": "installCia",
+			"file": "sdmc:/D7-Menu.cia",
+			"message": "Installing CIA..."
+		}]
+	}]
+}
