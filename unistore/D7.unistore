@@ -33,6 +33,24 @@
 			"type": "installCia",
 			"file": "sdmc:/D7-Menu.cia",
 			"message": "Installing CIA..."
+		},
+{
+		"info": {
+			"title": "Test",
+			"version": "0.0.0",
+			"author": "Tobi-D7",
+			"description": "Test",
+			"fileSize": 638720
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://github.com/NPI-D7/nightlys/raw/master/builds/Test/Test.cia",
+			"output": "sdmc:/Test.cia",
+			"message": "Downloading Test..."
+		}, {
+			"type": "installCia",
+			"file": "sdmc:/Test.cia",
+			"message": "Installing CIA..."
 		}]
 	}]
 }
