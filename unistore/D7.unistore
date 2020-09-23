@@ -33,7 +33,7 @@
 			"type": "installCia",
 			"file": "sdmc:/D7-Menu.cia",
 			"message": "Installing CIA..."
-		},
+		}]
 },
 {
 		"info": {
@@ -54,5 +54,5 @@
 			"message": "Installing CIA..."
 		}]
 	}]
-}]
+}
 
