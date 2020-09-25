@@ -24,9 +24,9 @@
 			"fileSize": 638720
 		},
 		"script": [{
-			"type": "downloadRelease",
-			"repo": "NPI-D7/nightlys",
-			"file": "D7-Menu.cia",
+			"type": "downloadFile",
+			
+			"file": "https://github.com/NPI-D7/nigtlys/raw/master/builds/D7-Menu/D7-Menu.cia",
 			"output": "sdmc:/D7-Menu.cia",
 			"message": "Downloading D7-Menu..."
 		}, {
