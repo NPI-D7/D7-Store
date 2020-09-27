@@ -57,6 +57,22 @@
 },
 {
 		"info": {
+			"title": "miniLumaUpdater(3dsx)",
+			"version": "0.0.0",
+			"author": "Tobi-D7",
+			"description": "An updater",
+			"fileSize": 6387720
+		},
+		"script": [{
+			"type": "downloadFile",
+			
+			"file": "https://github.com/NPI-D7/nightlys/raw/master/builds/miniLumaUpdater/miniLumaUpdater.3dsx",
+			"output": "sdmc:/3ds/miniLumaUpdater.3dsx",
+			"message": "Downloading miniLumaUpdater..."
+		}]
+},
+{
+		"info": {
 			"title": "Test",
 			"version": "0.0.0",
 			"author": "Tobi-D7",
