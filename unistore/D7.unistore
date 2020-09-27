@@ -37,6 +37,26 @@
 },
 {
 		"info": {
+			"title": "miniLumaUpdater",
+			"version": "0.0.0",
+			"author": "Tobi-D7",
+			"description": "An updater",
+			"fileSize": 6387720
+		},
+		"script": [{
+			"type": "downloadFile",
+			
+			"file": "https://github.com/NPI-D7/nightlys/raw/master/builds/miniLumaUpdater/miniLumaUpdater.cia",
+			"output": "sdmc:/miniLumaUpdater.cia",
+			"message": "Downloading miniLumaUpdater..."
+		}, {
+			"type": "installCia",
+			"file": "sdmc:/miniLumaUpdater.cia",
+			"message": "Installing CIA..."
+		}]
+},
+{
+		"info": {
 			"title": "Test",
 			"version": "0.0.0",
 			"author": "Tobi-D7",
