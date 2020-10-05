@@ -38,7 +38,7 @@
 		"Download D7-Menu.3dsx": [{
 			"type": "downloadFile",
 			
-			"file": "https://github.com/NPI-D7/nigtlys/raw/master/builds/D7-Menu/D7-Menu.3dsx",
+			"file": "https://github.com/NPI-D7/nightlys/raw/master/builds/D7-Menu/D7-Menu.3dsx",
 			"output": "sdmc:/3ds/D7-Menu.3dsx",
 			"message": "Downloading D7-Menu.3dsx..."
 		}],
