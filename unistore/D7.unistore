@@ -57,18 +57,18 @@
 },
 {
 		"info": {
-			"title": "miniLumaUpdater(3dsx)",
+			"title": "D7V2",
 			"version": "0.0.0",
 			"author": "Tobi-D7",
-			"description": "An updater",
+			"description": "Unistorev2",
 			"fileSize": 6387720
 		},
 		"script": [{
 			"type": "downloadFile",
 			
-			"file": "https://github.com/NPI-D7/nightlys/raw/master/builds/miniLumaUpdater/miniLumaUpdater.3dsx",
-			"output": "sdmc:/3ds/miniLumaUpdater.3dsx",
-			"message": "Downloading miniLumaUpdater..."
+			"file": "https://github.com/NPI-D7/D7-Store/raw/master/unistore/D7V2.unistore",
+			"output": "sdmc:/3ds/Universal-Updater/stores/D7V2.unistore",
+			"message": "Downloading..."
 		}]
 },
 {
