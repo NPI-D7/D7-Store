@@ -7,7 +7,7 @@
 		"file": "sdmc:/3ds/Universal-Updater/stores/D7V2.unistore",
 		"sheet": "sdmc:/3ds/Universal-Updater/stores/D7V2.t3x",
 		"sheetURL": "https://github.com/NPI-D7/D7-Store/raw/master/unistore/D7V2.t3x",
-		"description": "In Development.",
+		"description": "In Development...",
 		"categories": ["utility"],
 		"authors": ["Tobi"],
 		"consoles": ["3DS"],
