@@ -47,7 +47,9 @@
 			"type": "deleteFile",
 			"file": "sdmc:/D7-Menu.cia",
 			"message": "Deleting unneeded file..."
-		}],
+		}]
+		
+		},
 		"info": {
 			"title": "3ds-download-test",
 			"version": "v0.0.0",
