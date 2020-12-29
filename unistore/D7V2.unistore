@@ -54,11 +54,11 @@
 			"author": "Tobi",
 			"category": "utility",
 			"console": "3ds",
-			"icon_index": 0,
+			"icon_index": 80,
 			"description": "An example"
 		},
 		
-		"Download D7-Menu.3dsx": [{
+		"Download 3ds-download-test.3dsx": [{
 			"type": "downloadFile",
 			
 			"file": "https://github.com/NPI-D7/nightlys/raw/master/builds/3ds-download-test/3ds-download-test.3dsx",
