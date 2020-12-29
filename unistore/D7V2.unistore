@@ -47,7 +47,26 @@
 			"type": "deleteFile",
 			"file": "sdmc:/D7-Menu.cia",
 			"message": "Deleting unneeded file..."
+		}],
+		"info": {
+			"title": "3ds-download-test",
+			"version": "v0.0.0",
+			"author": "Tobi",
+			"category": "utility",
+			"console": "3ds",
+			"icon_index": 0,
+			"description": "An example"
+		},
+		
+		"Download D7-Menu.3dsx": [{
+			"type": "downloadFile",
+			
+			"file": "https://github.com/NPI-D7/nightlys/raw/master/builds/3ds-download-test/3ds-download-test.3dsx",
+			"output": "sdmc:/3ds/3ds-download-test.3dsx",
+			"message": "Downloading 3ds-download-test.3dsx..."
 		}]
+
+		
 
    }]
 }
