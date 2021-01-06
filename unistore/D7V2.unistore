@@ -57,7 +57,7 @@
 			"author": "Tobi",
 			"category": "utility",
 			"console": "3ds",
-			"icon_index": 80,
+			"icon_index": 0,
 			"description": "An example"
 		},
 		
@@ -67,6 +67,23 @@
 			"file": "https://github.com/NPI-D7/nightlys/raw/master/builds/3ds-download-test/3ds-download-test.3dsx",
 			"output": "sdmc:/3ds/3ds-download-test.3dsx",
 			"message": "Downloading 3ds-download-test.3dsx..."
+		}],
+		"Download Demo-Reset.cia": [{
+			"type": "downloadFile",
+			
+			"file": "https://github.com/NPI-D7/nightlys/raw/master/builds/Demo-Reset/Demo-Reset.cia",
+			"output": "sdmc:/Demo-Reset.cia",
+			"message": "Downloading Demo-Reset.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "sdmc:/Demo-Reset.cia",
+			"message": "Installing Demo-Reset.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/Demo-Reset.cia",
+			"message": "Deleting unneeded file..."
 		}]
 
 		
