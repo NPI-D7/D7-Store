@@ -47,6 +47,12 @@
 			"type": "deleteFile",
 			"file": "sdmc:/D7-Menu.cia",
 			"message": "Deleting unneeded file..."
+		},
+		{
+		    	"type": "bootTitle",
+		    	"TitleID": "0x000400000447I000",
+    			"NAND": false,
+    			"message": "Booting app..."
 		}]
 		
 		},
