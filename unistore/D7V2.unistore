@@ -77,7 +77,7 @@
 		"Download BCSTM-Player.cia": [{
 			"type": "downloadFile",
 			
-			"file": "https://github.com/NPI-D7/nightlys/raw/master/builds/Demo-Reset/BCSTM-Player.cia",
+			"file": "https://github.com/NPI-D7/nightlys/raw/master/builds/BCSTM-Player/BCSTM-Player.cia",
 			"output": "sdmc:/BCSTM-Player.cia",
 			"message": "Downloading BCSTM-Player.cia..."
 		},
