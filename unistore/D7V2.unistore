@@ -58,6 +58,45 @@
 		},
 		{
 		"info": {
+			"title": "BCSTM-Player",
+			"version": "v0.1.0",
+			"author": "Tobi",
+			"category": "utility",
+			"console": "3ds",
+			"icon_index": 0,
+			"description": "An example"
+		},
+		
+		"Download BCSTM-Player.3dsx": [{
+			"type": "downloadFile",
+			
+			"file": "https://github.com/NPI-D7/nightlys/raw/master/builds/BCSTM-Player/BCSTM-Player.3dsx",
+			"output": "sdmc:/3ds/BCSTM-Player.3dsx",
+			"message": "Downloading BCSTM-Player.3dsx..."
+		}],
+		"Download BCSTM-Player.cia": [{
+			"type": "downloadFile",
+			
+			"file": "https://github.com/NPI-D7/nightlys/raw/master/builds/Demo-Reset/BCSTM-Player.cia",
+			"output": "sdmc:/BCSTM-Player.cia",
+			"message": "Downloading BCSTM-Player.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "sdmc:/BCSTM-Player.cia",
+			"message": "Installing BCSTM-Player.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/BCSTM-Player.cia",
+			"message": "Deleting unneeded file..."
+		}]
+
+		
+
+   },
+		{
+		"info": {
 			"title": "3ds-download-test",
 			"version": "v0.0.0",
 			"author": "Tobi",
