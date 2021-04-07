@@ -1,137 +1,131 @@
 {
 
-"storeInfo": {
-		"title": "D7V2",
-    "author": "Tobi",
-    "description": "Devstore",
-    "file": "D7V2.unistore",
-    "url": "https://github.com/NPI-D7/D7-Store/raw/master/unistore/D7V2.unistore",
-    "sheet": "D7V2.t3x",
-    "sheetURL": "https://github.com/NPI-D7/D7-Store/raw/master/unistore/D7V2.t3x",
-    "bg_index": 0,
-    "bg_sheet": 0,
-    "version": 3,
-    "revision": 60
-	},
-        "storeContent": [{
-		"info": {
-			"title": "D7-Menu",
-			"version": "v0.0.0",
-			"author": "Tobi",
-			"category": "utility",
-			"console": "3ds",
-			"icon_index": 0,
-			"description": "An applauncher"
-		},
-		
-		"Download D7-Menu.3dsx": [{
-			"type": "downloadFile",
-			
-			"file": "https://github.com/NPI-D7/nightlys/raw/master/builds/D7-Menu/D7-Menu.3dsx",
-			"output": "sdmc:/3ds/D7-Menu.3dsx",
-			"message": "Downloading D7-Menu.3dsx..."
-		}],
-		"Download D7-Menu.cia": [{
-			"type": "downloadFile",
-			
-			"file": "https://github.com/NPI-D7/nightlys/raw/master/builds/D7-Menu/D7-Menu.cia",
-			"output": "sdmc:/D7-Menu.cia",
-			"message": "Downloading D7-Menu.cia..."
-		},
-		{
-			"type": "installCia",
-			"file": "sdmc:/D7-Menu.cia",
-			"message": "Installing D7-Menu.cia..."
-		},
-		{
-			"type": "deleteFile",
-			"file": "sdmc:/D7-Menu.cia",
-			"message": "Deleting unneeded file..."
-		},
-		{
-		    	"type": "bootTitle",
-		    	"TitleID": "0x000400000447I000",
-    			"NAND": false,
-    			"message": "Booting app..."
-		}]
-		
-		},
-		{
-		"info": {
-			"title": "BCSTM-Player",
-			"version": "v0.1.0",
-			"author": "Tobi",
-			"category": "utility",
-			"console": "3ds",
-			"icon_index": 0,
-			"description": "An example"
-		},
-		
-		"Download BCSTM-Player.3dsx": [{
-			"type": "downloadFile",
-			
-			"file": "https://github.com/NPI-D7/nightlys/raw/master/builds/BCSTM-Player/BCSTM-Player.3dsx",
-			"output": "sdmc:/3ds/BCSTM-Player.3dsx",
-			"message": "Downloading BCSTM-Player.3dsx..."
-		}],
-		"Download BCSTM-Player.cia": [{
-			"type": "downloadFile",
-			
-			"file": "https://github.com/NPI-D7/nightlys/raw/master/builds/BCSTM-Player/BCSTM-Player.cia",
-			"output": "sdmc:/BCSTM-Player.cia",
-			"message": "Downloading BCSTM-Player.cia..."
-		},
-		{
-			"type": "installCia",
-			"file": "sdmc:/BCSTM-Player.cia",
-			"message": "Installing BCSTM-Player.cia..."
-		},
-		{
-			"type": "deleteFile",
-			"file": "sdmc:/BCSTM-Player.cia",
-			"message": "Deleting unneeded file..."
-		}]
-
-		
-
-   },
-		{
-		"info": {
-			"title": "3ds-download-test",
-			"version": "v0.0.0",
-			"author": "Tobi",
-			"category": "utility",
-			"console": "3ds",
-			"icon_index": 0,
-			"description": "An example"
-		},
-		
-		"Download 3ds-download-test.3dsx": [{
-			"type": "downloadFile",
-			
-			"file": "https://github.com/NPI-D7/nightlys/raw/master/builds/3ds-download-test/3ds-download-test.3dsx",
-			"output": "sdmc:/3ds/3ds-download-test.3dsx",
-			"message": "Downloading 3ds-download-test.3dsx..."
-		}],
-		"Download Demo-Reset.cia": [{
-			"type": "downloadFile",
-			
-			"file": "https://github.com/NPI-D7/nightlys/raw/master/builds/Demo-Reset/Demo-Reset.cia",
-			"output": "sdmc:/Demo-Reset.cia",
-			"message": "Downloading Demo-Reset.cia..."
-		},
-		{
-			"type": "installCia",
-			"file": "sdmc:/Demo-Reset.cia",
-			"message": "Installing Demo-Reset.cia..."
-		},
-		{
-			"type": "deleteFile",
-			"file": "sdmc:/Demo-Reset.cia",
-			"message": "Deleting unneeded file..."
-		}]
-
-		
-
-   }]
-}
+    "storeInfo": {
+            "title": "D7V2",
+        "author": "Tobi",
+        "description": "Devstore",
+        "file": "D7V2.unistore",
+        "url": "https://github.com/NPI-D7/D7-Store/raw/master/unistore/D7V2.unistore",
+        "sheet": "D7V2.t3x",
+        "sheetURL": "https://github.com/NPI-D7/D7-Store/raw/master/unistore/D7V2.t3x",
+        "bg_index": 0,
+        "bg_sheet": 0,
+        "version": 3,
+        "revision": 60
+        },
+            "storeContent": [{
+            "info": {
+                "title": "BCSTM-Player-dev",
+                "version": "v0.0.0",
+                "author": "Tobi",
+                "category": "utility",
+                "console": "3ds",
+                "icon_index": 0,
+                "description": "An applauncher"
+            },
+            
+            "Download BCSTM-Player-dev.3dsx": [{
+                "type": "downloadFile",
+                
+                "file": "https://github.com/NPI-D7/nightlys/raw/master/builds/BCSTM-Player-dev/BCSTM-Player.3dsx",
+                "output": "sdmc:/3ds/BCSTM-Player-dev.3dsx",
+                "message": "Downloading BCSTM-Player-dev.3dsx..."
+            }],
+            "Download BCSTM-Player-dev.cia": [{
+                "type": "downloadFile",
+                
+                "file": "https://github.com/NPI-D7/nightlys/raw/master/builds/BCSTM-Player-dev/BCSTM-Player.cia",
+                "output": "sdmc:/BCSTM-Player-dev.cia",
+                "message": "Downloading BCSTM-Player-dev.cia..."
+            },
+            {
+                "type": "installCia",
+                "file": "sdmc:/BCSTM-Player-dev.cia",
+                "message": "Installing BCSTM-Player-dev.cia..."
+            },
+            {
+                "type": "deleteFile",
+                "file": "sdmc:/BCSTM-Player-dev.cia",
+                "message": "Deleting unneeded file..."
+            }]
+            
+            },
+            {
+            "info": {
+                "title": "BCSTM-Player",
+                "version": "v0.1.0",
+                "author": "Tobi",
+                "category": "utility",
+                "console": "3ds",
+                "icon_index": 0,
+                "description": "An example"
+            },
+            
+            "Download BCSTM-Player.3dsx": [{
+                "type": "downloadFile",
+                
+                "file": "https://github.com/NPI-D7/nightlys/raw/master/builds/BCSTM-Player/BCSTM-Player.3dsx",
+                "output": "sdmc:/3ds/BCSTM-Player.3dsx",
+                "message": "Downloading BCSTM-Player.3dsx..."
+            }],
+            "Download BCSTM-Player.cia": [{
+                "type": "downloadFile",
+                
+                "file": "https://github.com/NPI-D7/nightlys/raw/master/builds/BCSTM-Player/BCSTM-Player.cia",
+                "output": "sdmc:/BCSTM-Player.cia",
+                "message": "Downloading BCSTM-Player.cia..."
+            },
+            {
+                "type": "installCia",
+                "file": "sdmc:/BCSTM-Player.cia",
+                "message": "Installing BCSTM-Player.cia..."
+            },
+            {
+                "type": "deleteFile",
+                "file": "sdmc:/BCSTM-Player.cia",
+                "message": "Deleting unneeded file..."
+            }]
+    
+            
+    
+       },
+            {
+            "info": {
+                "title": "3ds-download-test",
+                "version": "v0.0.0",
+                "author": "Tobi",
+                "category": "utility",
+                "console": "3ds",
+                "icon_index": 0,
+                "description": "An example"
+            },
+            
+            "Download 3ds-download-test.3dsx": [{
+                "type": "downloadFile",
+                
+                "file": "https://github.com/NPI-D7/nightlys/raw/master/builds/3ds-download-test/3ds-download-test.3dsx",
+                "output": "sdmc:/3ds/3ds-download-test.3dsx",
+                "message": "Downloading 3ds-download-test.3dsx..."
+            }],
+            "Download Demo-Reset.cia": [{
+                "type": "downloadFile",
+                
+                "file": "https://github.com/NPI-D7/nightlys/raw/master/builds/Demo-Reset/Demo-Reset.cia",
+                "output": "sdmc:/Demo-Reset.cia",
+                "message": "Downloading Demo-Reset.cia..."
+            },
+            {
+                "type": "installCia",
+                "file": "sdmc:/Demo-Reset.cia",
+                "message": "Installing Demo-Reset.cia..."
+            },
+            {
+                "type": "deleteFile",
+                "file": "sdmc:/Demo-Reset.cia",
+                "message": "Deleting unneeded file..."
+            }]
+    
+            
+    
+       }]
+    }
