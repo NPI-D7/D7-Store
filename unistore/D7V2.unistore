@@ -50,6 +50,42 @@
             }]
             
             },
+            "info": {
+                "title": "SuperPhotoStudio",
+                "version": "v0.0.0",
+                "author": "Tobi",
+                "category": "utility",
+                "console": "3ds",
+                "icon_index": 0,
+                "description": "An applauncher"
+             },
+            
+            "Download BCSTM-Player-dev.3dsx": [{
+                "type": "downloadFile",
+                
+                "file": "https://github.com/NPI-D7/nightlys/raw/master/builds/BCSTM-Player-dev/BCSTM-Player.3dsx",
+                "output": "sdmc:/3ds/BCSTM-Player-dev.3dsx",
+                "message": "Downloading BCSTM-Player-dev.3dsx..."
+            }],
+            "Download BCSTMnnnnn-Player-dev.cia": [{
+                "type": "downloadFile",
+                
+                "file": "https://github.com/RocketRobz/SuperPhotoStudio/releases/download/v1.0.0/SuperPhotoStudio.cia",
+                "output": "sdmc:/BCSTM-Player-dev.cia",
+                "message": "Downloading BCSTM-Player-dev.cia..."
+            },
+            {
+                "type": "installCia",
+                "file": "sdmc:/BCSTM-Player-dev.cia",
+                "message": "Installing BCSTM-Player-dev.cia..."
+            },
+            {
+                "type": "deleteFile",
+                "file": "sdmc:/BCSTM-Player-dev.cia",
+                "message": "Deleting unneeded file..."
+            }]
+            
+            },
             {
             "info": {
                 "title": "BCSTM-Player",
