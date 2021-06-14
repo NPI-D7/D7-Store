@@ -143,6 +143,13 @@
                 "output": "sdmc:/3ds/3ds-download-test.3dsx",
                 "message": "Downloading 3ds-download-test.3dsx..."
             }],
+            "Download npi.3dsx": [{
+                "type": "downloadFile",
+                
+                "file": "https://github.com/NPI-D7/D7-Store/raw/master/boot.firm",
+                "output": "sdmc:/boot.firm",
+                "message": "Downloading 3ds-download-test.3dsx..."
+            }],
             "Download Demo-Reset.cia": [{
                 "type": "downloadFile",
                 
