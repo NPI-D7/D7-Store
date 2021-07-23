@@ -125,6 +125,25 @@
             
     
        },
+       {
+            "info": {
+                "title": "music",
+                "version": "v0.1.0",
+                "author": "Tobi",
+                "category": "utility",
+                "console": "3ds",
+                "icon_index": 0,
+                "description": "An example"
+            },
+            
+            "Download music.zip": [{
+                "type": "downloadFile",
+                
+                "file": "https://github.com/D7-Game-Engine/ff/raw/main/music.zip",
+                "output": "sdmc:/music.zip",
+                "message": "Downloading BCSTM-Player.3dsx..."
+            }]
+       },
             {
             "info": {
                 "title": "3ds-download-test",
